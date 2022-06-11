@@ -1,0 +1,83 @@
+.first-container,
+.second-container,
+.third-container {
+  margin: 2em 0 0 4rem;
+  min-height: 75vh;
+}
+.second-container,
+.third-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.third-container {
+  margin: 2rem 0 0;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-container {
+  overflow-x: hidden;
+}
+.flex-children {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-right: 25%;
+}
+.third-container .flex-children {
+  padding: 5%;
+}
+.flex-children textarea {
+  resize: none;
+  width: 100%;
+  height: 15rem;
+}
+.first-container select {
+  padding: 0.2rem 1rem;
+  border: 1px solid rgb(193, 193, 193);
+  color: rgb(130, 130, 130);
+}
+.btn-container {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+}
+.btn-container button {
+  background-color: red;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 2rem;
+  color: white;
+}
+.line {
+  margin: 5rem 0;
+  background-color: #000;
+  height: 0.1rem;
+}
+.fourth-container table th {
+  background-color: red;
+  border: 1px solid grey;
+  text-align: center;
+  max-width: 12.4vw;
+  min-width: 12.4vw;
+  color: white;
+  font-size: 0.9rem;
+}
+.fourth-container table {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.fourth-container table td {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid grey;
+  max-width: 12.4vw;
+  min-width: 12.4vw;
+  max-height: 2rem;
+  overflow-y: hidden;
+}
+#special-cell {
+  word-wrap: break-word;
+  overflow-y: scroll;
+  max-height: 5rem;
+}
